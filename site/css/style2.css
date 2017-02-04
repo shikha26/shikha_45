@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 20px;
+    height: 50%;
+    font-family: 'Dancing Script', cursive; color:white;
+    background: #ffffff url("Agra.jpg");
+    font-size: 20px;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    background-color: #c5e8d3;
+}
