@@ -1,0 +1,9 @@
+
+body {
+	width:70%;
+	background:#ffffff url(skyline.jpg) repeat-y top right;
+	font-family: 'Pangolin', cursive;
+	text-align:left;
+	border-sizing:border-box;
+	font-family: 'Dancing Script', cursive;
+}
