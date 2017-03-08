@@ -1,13 +1,3 @@
-var checkBirthDate = function(month, year, minAge){
-    var currentDate = new Date();
-    var bDate = new Date(parseInt(year)+parseInt(minAge), month);
-    var cDate = new Date(parseInt(currentDate.getFullYear()), parseInt(currentDate.getMonth())+1);
-
-    if(bDate.getTime() < cDate.getTime()) {
-        return true; }
-    else {
-        return false; }
-}
 function sayHello () {
   var name =
    document.getElementById("name").value;
