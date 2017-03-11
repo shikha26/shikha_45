@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to demonstrate the prompt box.</p>
+
+<button onclick="myFunction()">Enter date</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter your name");
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+
+       
+function myFunction() {
+    var d = new Date();
+    d.setDate(26);
+    document.getElementById("demo").innerHTML = d;
+    }
+}
+</script>
+
+</body>
+</html>
